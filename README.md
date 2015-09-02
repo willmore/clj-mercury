@@ -9,3 +9,15 @@
 > - "Bohemian Rhapsody" by Freddie Mercury 
 
 Mercury is a message producer/consumer.
+
+## Development
+
+### Rabbit MQ setup (OSX)
+    
+    brew install rabbitmq
+    rabbitmq-server
+    
+### Run tests (with watch)
+    
+    lein midje :autotest
+    
